@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johnny - Portfólio Futurista</title>
+  <!-- Google Fonts - Orbitron for headings, Open Sans for body text -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Arquivo de estilo CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navegação fixa no topo -->
+  <nav>
+    <a href="#projects">Projetos</a>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#orcamento">Orçamento</a>
+  </nav>
+
+  <!-- Seção Hero -->
+  <section id="hero">
+    <!-- Canvas para efeito de código Matrix -->
+    <canvas id="matrixCanvas"></canvas>
+    <!-- Nome do Johnny em destaque -->
+    <h1 class="hero-name">dev/web JOHNNY</h1>
+    <!-- Imagem do personagem do Johnny com armadura -->
+    <img src="img/personagem.png" alt="Johnny com armadura tecnológica" class="hero-char" />
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projects">
+    <h2>Projetos</h2>
+    <div class="projects-grid">
+      <img src="img/1.png" alt="Projeto 1" />
+      <img src="img/2.png" alt="Projeto 2" />
+      <img src="img/3.png" alt="Projeto 3" />
+      <img src="img/4.png" alt="Projeto 4" />
+      <img src="img/5.png" alt="Projeto 5" />
+      <img src="img/6.png" alt="Projeto 6" />
+      <img src="img/7.png" alt="Projeto 7" />
+      <img src="img/8.png" alt="Projeto 8" />
+      <img src="img/9.png" alt="Projeto 9" />
+      <img src="img/10.png" alt="Projeto 10" />
+      <img src="img/11.png" alt="Projeto 11" />
+      <img src="img/12.png" alt="Projeto 12" />
+    </div>
+  </section>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-cards">
+      <div class="sobre-card">
+        <h3 class="question">Por que amo tecnologia?</h3>
+        <p class="answer">Porque me permite inovar e criar soluções que impactam a vida das pessoas, além de estar sempre aprendendo coisas novas.</p>
+      </div>
+      <div class="sobre-card">
+        <h3 class="question">Quais são meus hobbies?</h3>
+        <p class="answer">Além de programar, adoro jogar videogame, assistir a filmes de ficção científica e explorar novas tecnologias.</p>
+      </div>
+      <div class="sobre-card">
+        <h3 class="question">Qual é a minha missão?</h3>
+        <p class="answer">Minha missão é desenvolver experiências web únicas, combinando design atraente com performance e usabilidade para superar as expectativas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Orçamento -->
+  <section id="orcamento">
+    <h2>Orçamento</h2>
+    <p class="budget-text">
+      Os valores de um projeto podem variar conforme a complexidade e as necessidades do cliente.  
+      Fique à vontade para entrar em contato e conversar sobre sua ideia. Clique nos ícones abaixo para falar diretamente comigo pelo WhatsApp ou visitar meu Instagram. Vamos discutir seu projeto e chegar ao melhor orçamento para você!
+    </p>
+    <div class="contact-links">
+      <!-- Link para Instagram -->
+      <a href="https://instagram.com/johnnywmw" target="_blank" class="icon-link" title="Meu Instagram">
+        <img src="img/instagram.png" alt="Instagram de Johnny" />
+      </a>
+      <!-- Link para WhatsApp com mensagem pré-carregada -->
+      <a href="https://wa.me/5581979007710?text=Fiquei%20interessado%20em%20criar%20meu%20site%20com%20voc%C3%AA%20e%20quero%20conversar%20melhor%20para%20ter%20um%20or%C3%A7amento%20final%20e%20podermos%20fechar%20neg%C3%B3cio." target="_blank" class="icon-link" title="Fale comigo no WhatsApp">
+        <img src="img/whatsapp.png" alt="WhatsApp do Johnny" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Lightbox/Modal para visualizar projetos em tamanho maior -->
+  <div id="lightbox">
+    <img id="lightbox-img" src="#" alt="Visualização do projeto ampliada" />
+  </div>
+
+  <!-- Botão flutuante do WhatsApp (canto inferior direito) -->
+  <a href="https://wa.me/5581979007710?text=Fiquei%20interessado%20em%20criar%20meu%20site%20com%20voc%C3%AA%20e%20quero%20conversar%20melhor%20para%20ter%20um%20or%C3%A7amento%20final%20e%20podermos%20fechar%20neg%C3%B3cio." class="floating-whatsapp icon-link" target="_blank" title="Chat no WhatsApp">
+    <img src="img/whatsapp.png" alt="WhatsApp" />
+  </a>
+
+  <!-- Inclusão do script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
